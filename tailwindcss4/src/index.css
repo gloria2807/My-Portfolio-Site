@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-primary: #cccccc;
+  --color-highlight: #fff;
+  --color-gradient: linear-230 from-[#D4AF37] to-[#000000];
+  --font-poppins: "Poppins", "sans-serif";
+  --font-cursive: "Edu NSW ACT Cursive", "sans-serif";
+  
+  /* ... */
+}
+
+@layer components{
+  .primary-btn {
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    background-color: black;
+    color: gold;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    font-size: 1.125rem;
+    border-radius: 40px;
+    transition: 0.2s ease;
+  }
+  .secondary-btn {
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    background-color: gold;
+    color: black;
+    margin: 0 0 0 28px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    font-size: 1.125rem;
+    border-radius: 40px;
+    transition: 0.2s ease;
+  }
+  .primary-btn:hover{
+    background-color: white;
+    color: black;
+  }
+  .secondary-btn:hover{
+    background-color: yellowgreen;
+    color: white;
+  }
+  @layer utilities{
+  .text-shadow{
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+}
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .role{
+    margin: 14px 0 24px 0;
+  }
+  .picture{
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+  }
+  .picture .background{
+    height: 92%;
+    width: 92%;
+    background-image: url("./assets/6044019275221551886.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .picture .background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+  }
+.animated-wrapper {
+  animation-name: move-wrapper;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+@keyframes move-wrapper {
+  0% {
+    transform: translate(150%, 30%) rotate(0) scale(0.8);
+  }
+  50%{
+    transform: translate(60vw, 0vh) rotate(150deg) scale(1.2);
+  }
+  to{
+    transform: translate(40vw, 40vh) rotate(0deg) scale(0.8);
+  }
+}
+
+  @media screen and (max-width: 1110px){
+    .picture{
+      margin: 0 0px 0 80px;
+    }
+    .name{
+      font-size: 20px;
+    }
+    .role .text-primary{
+      font-size: 12px;
+    }
+    .options .btn{
+      width: 120px;
+      padding: 11px 11;
+      z-index: 700;
+    }
+  }
+
+  @media screen and (max-width: 910px){
+    .picture{
+      height: 320px;
+      width: 320px;
+      margin: 0 0px 0 4px;
+    }
+  }
+
+   @media screen and (max-width: 810px){
+    .picture{
+      margin: 0 !important;
+    }
+    .parent{
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+    .options{
+      display: flex;
+      justify-content: space-between;
+    }
+    .details{
+      margin: 25px 0 0;
+    }
+    .options .secondary-btn{
+      margin: 0 !important;
+    }
+    .options .role{
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .picture{
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .details{
+      width: 90%;
+    }
+  }
+}
