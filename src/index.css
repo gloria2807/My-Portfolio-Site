@@ -17,7 +17,7 @@
 @layer components{
   .primary-btn {
     width: 50%;
-    height: 30px;
+    height: 40px;
     cursor: pointer;
     outline: none;
     background-color: black;
@@ -30,7 +30,7 @@
   }
   .secondary-btn {
     width: 50%;
-    height: 30px;
+    height: 40px;
     cursor: pointer;
     outline: none;
     background-color: gold;

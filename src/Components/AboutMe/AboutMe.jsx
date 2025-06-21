@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section id='about'>
     <div className='py-12 px-10 sm:py-0 relative bg-white'>
-        <div className="container lg:ml-30 min-h-[620px] flex items-center">
+        <div className="container md:ml-30 min-h-[620px] flex items-center">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8
             place-items-center">
                 <div data-aos='fade-up' data-aos-once='false'>
