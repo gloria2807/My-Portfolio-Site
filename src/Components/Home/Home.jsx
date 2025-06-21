@@ -27,15 +27,15 @@ const Home = () => {
                 </div>
 
                 <div className="name text-2xl flex items-center justify-center">
-                    <span className='text-primary'>
+                    <span className='text-gray-200'>
                         {" "}Hello, I'm 
-                        <span className='text-highlight'> Gloria</span>
+                        <span className='text-white'> Gloria</span>
                     </span>
                 </div>
 
                 
                 <div className="role flex flex-col items-center justify-center">
-                    <span className='text-primary'>
+                    <span className='text-gray-200'>
                         {" "}
                         <h1 className='text-2xl font-cursive flex items-center justify-center'>
                             {" "}
