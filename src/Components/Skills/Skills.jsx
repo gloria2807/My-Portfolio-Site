@@ -44,11 +44,11 @@ const Skills = () => {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-4">
                 {skillsData.map((data, index) => (
-                    <div key={index} data-aos='fade-up' data-aos-delay={data.aosDelay} className="text-center group space-y-3 sm:space-y-6 p-4 sm:py-10 bg-gradient-to-b from-black to-amber-300
-                    hover:bg-gradient-to-r from-primary to-secondary
-                    hover:shadow-[0_0_40px_#FFC300] text-black
+                    <div key={index} data-aos='fade-up' data-aos-delay={data.aosDelay} className="text-center group space-y-3 sm:space-y-6 p-4 sm:py-10 bg-gradient-to-b from-amber-300 to-black
+                    hover:bg-gradient-to-r
+                    hover:shadow-[0_0_40px_#FFC300] text-white
                     rounded-lg duration-300">
-                        <div className="grid place-items-center text-black"> {data.icon} </div>
+                        <div className="grid place-items-center text-white"> {data.icon} </div>
                         <h1 className='text-2xl'>{data.name}</h1>
                         <p>{data.description}</p>
                     </div>
