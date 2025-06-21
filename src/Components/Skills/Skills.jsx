@@ -14,7 +14,7 @@ const skillsData = [
     {
         name: "Database Management",
         icon: (
-            <FaDatabase className="text-5xl text-5xl duration-300" />
+            <FaDatabase className="text-5xl duration-300" />
         ),
         description: "I work with MySQL in Laravel and PHP environments to manage, structure, and query data. I handle everything from schema design to data handling via phpMyAdmin and ensure efficient, secure data flow across projects.",
         aosDelay: "500",

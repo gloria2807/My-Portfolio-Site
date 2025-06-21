@@ -32,12 +32,16 @@ const Home = () => {
                         <span className='text-white'> Gloria</span>
                     </span>
                 </div>
-
+                <div className='flex items-center justify-center'>
+                    <p className='tagline text-gray-200 ml-10 mr-10 font-poppins'>
+                            Shaping smart, user-centric experiences
+                        </p>
+                </div>
                 
-                <div className="role flex flex-col items-center justify-center px-10">
+                <div className="role h-[60px] overflow-hidden flex flex-col items-center justify-center px-10">
                     <span className='text-gray-200'>
                         {" "}
-                        <h1 className='text-2xl font-cursive flex items-center justify-center'>
+                        <h1 className='text-xl font-cursive flex items-center justify-center'>
                             {" "}
                             <Typical
                             loop={Infinity} 
@@ -55,12 +59,10 @@ const Home = () => {
                             ]}
                             />
                         </h1>
-                        <span className='tagline text-xl my-5 font-poppins'>
-                            Passion for shaping seamless user-first interfaces
-                        </span>
                     </span>
                 </div>
-                <div className="options flex items-center justify-center gap-3"> 
+                <div className='flex items-center justify-center'>
+                <div className="options gap-3"> 
                     <button className='btn primary-btn'>
                        <a href='#contact'>
                             Hire Me</a>
@@ -70,7 +72,9 @@ const Home = () => {
                             Get Resume</a>
                         </button> 
                 </div>
+                </div>
             </div>
+            
             <div className="picture flex items-center justify-center shadow-[0_1px_0_0_white]">
                 <div className="background"></div>
             </div>
