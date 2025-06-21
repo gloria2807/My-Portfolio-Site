@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id='contact' data-aos='fade-up' data-aos-delay='300' className='min-h-screen overflow-hidden items-center relative'>
+    <section id='contact' data-aos='fade-up' data-aos-delay='300' className='mb-10 ml-10 mr-10 overflow-hidden items-center relative'>
       <div className='py-8 sm:min-h-[400px] sm:grid sm:place-items-center'>
         <div className='mb-6'>
         <h1 className='text-center text-amber-400 font-bold text-4xl'>Contact <span className='text-white'>Us</span></h1>

@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
     },[])
 
 return (
-<div className="overflow-x-hidden">
+<div className="overflow-hidden">
   <div className='-bg-linear-230 from-[#D4AF37] to-[#000000]'>
   <Profile />
   </div>

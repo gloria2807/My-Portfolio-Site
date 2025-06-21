@@ -31,8 +31,9 @@ const skillsData = [
 
 const Skills = () => {
   return (
+    <main className='p-4' data-aos='fade-up' data-aos-delay='500'>
     <section id='skills'>
-    <div className="container px-8 py-14 sm:min-h-[600px]">
+    <div className="container px-8 py-14 lg:ml-30 lg:py-14 sm:min-h-[600px]">
         <div>
             <h1 data-aos='fade-up'
             className='text-3xl font-semibold text-center
@@ -57,6 +58,7 @@ const Skills = () => {
         </div>
     </div>
     </section>
+    </main>
   );
 };
 

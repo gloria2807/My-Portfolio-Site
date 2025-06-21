@@ -9,7 +9,7 @@ import Typical from 'react-typical';
 const Home = () => {
   return (
     <section id='home'>
-        <div className="container py-17.5 flex items-center justify-center" data-aos='fade-up' data-aos-delay='500'>
+        <div className="container py-17.5 lg:ml-30 flex items-center justify-center" data-aos='fade-up' data-aos-delay='500'>
             <div className="parent flex items-center text-shadow-violet-50">
                 <div className="details">
                     <div className="colz">
@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
 
                 
-                <div className="role flex flex-col items-center justify-center">
+                <div className="role flex flex-col items-center justify-center px-10">
                     <span className='text-gray-200'>
                         {" "}
                         <h1 className='text-2xl font-cursive flex items-center justify-center'>
@@ -60,7 +60,7 @@ const Home = () => {
                         </span>
                     </span>
                 </div>
-                <div className="options flex items-center justify-center"> 
+                <div className="options flex items-center justify-center gap-3"> 
                     <button className='btn primary-btn'>
                        <a href='#contact'>
                             Hire Me</a>
