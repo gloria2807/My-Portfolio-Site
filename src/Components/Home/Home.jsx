@@ -9,7 +9,7 @@ import Typical from 'react-typical';
 const Home = () => {
   return (
     <section id='home'>
-        <div className="container py-17.5 lg:ml-30 flex items-center justify-center" data-aos='fade-up' data-aos-delay='500'>
+        <div className="container py-17.5 md:ml-30 flex items-center justify-center" data-aos='fade-up' data-aos-delay='500'>
             <div className="parent flex items-center text-shadow-violet-50">
                 <div className="details">
                     <div className="colz">
@@ -37,31 +37,7 @@ const Home = () => {
                             Passion for shaping seamless user-first interfaces
                         </p>
 </div>
-                
-                <div className="role flex flex-col items-center justify-center px-10">
-                    <span className='text-gray-200'>
-                        {" "}
-                        <h1 className='text-xl h-[60px] w-[100] font-cursive flex items-center justify-center'>
-                            {" "}
-                            <Typical
-                            loop={Infinity} 
-                            steps={[
-                            "Sleek interfaces w/ ReactJS 🔴",
-                            2000,
-                            "Responsive designs w/ TailwindCSS💻",
-                            2000,
-                            "Clean code w/ HTML & CSS3😎",
-                            2000,
-                            "MySQL database w/ PHP🔷",
-                            2000,
-                            "Figma Designs📱",
-                            2000,
-                            ]}
-                            />
-                        </h1>
-                    </span>
-                </div>
-                <div className="options flex items-center justify-center gap-3"> 
+                <div className="options pt-10 flex items-center justify-center gap-3"> 
                     <button className='btn primary-btn'>
                        <a href='#contact'>
                             Hire Me</a>
