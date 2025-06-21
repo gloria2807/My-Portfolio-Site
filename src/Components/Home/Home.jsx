@@ -32,16 +32,16 @@ const Home = () => {
                         <span className='text-white'> Gloria</span>
                     </span>
                 </div>
-                <div className='flex items-center justify-center'>
-                    <p className='tagline text-gray-200 ml-10 mr-10 font-poppins'>
-                            Shaping smart, user-centric experiences
+<div>
+     <p className='tagline text-md text-gray-200 font-poppins flex items-center justify-center'>
+                            Passion for shaping seamless user-first interfaces
                         </p>
-                </div>
+</div>
                 
-                <div className="role h-[60px] overflow-hidden flex flex-col items-center justify-center px-10">
+                <div className="role flex flex-col items-center justify-center px-10">
                     <span className='text-gray-200'>
                         {" "}
-                        <h1 className='text-xl font-cursive flex items-center justify-center'>
+                        <h1 className='text-xl h-[60px] w-[100] font-cursive flex items-center justify-center'>
                             {" "}
                             <Typical
                             loop={Infinity} 
@@ -61,8 +61,7 @@ const Home = () => {
                         </h1>
                     </span>
                 </div>
-                <div className='flex items-center justify-center'>
-                <div className="options gap-3"> 
+                <div className="options flex items-center justify-center gap-3"> 
                     <button className='btn primary-btn'>
                        <a href='#contact'>
                             Hire Me</a>
@@ -72,9 +71,7 @@ const Home = () => {
                             Get Resume</a>
                         </button> 
                 </div>
-                </div>
             </div>
-            
             <div className="picture flex items-center justify-center shadow-[0_1px_0_0_white]">
                 <div className="background"></div>
             </div>
