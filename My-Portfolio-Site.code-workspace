@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "My-Portfolio-Site",
+			"path": "../My-Portfolio-Site/tailwindcss4"
+		},
+		{
+			"name": "tailwindcss4",
+			"path": "../React Portfolio Site/tailwindcss4"
+		}
+	],
+	"settings": {}
+}
