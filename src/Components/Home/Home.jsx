@@ -4,12 +4,11 @@ import {
     FaGithub,
     FaTwitter,
 } from 'react-icons/fa6';
-import Typical from 'react-typical';
 
 const Home = () => {
   return (
     <section id='home'>
-        <div className="container py-17.5 md:ml-30 flex items-center justify-center" data-aos='fade-up' data-aos-delay='500'>
+        <div className="py-17.5 flex items-center justify-center" data-aos='fade-up' data-aos-delay='500'>
             <div className="parent flex items-center text-shadow-violet-50">
                 <div className="details">
                     <div className="colz">

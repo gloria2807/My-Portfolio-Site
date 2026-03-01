@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <header className='md:fixed top-0 left-0 w-full z-20 text-white' data-aos='fade-up' data-aos-delay='300'>
-            <div className="container mx-auto flex items-center justify-between px-4 py-2">
+            <div className="mx-auto flex items-center justify-between px-8 py-4">
                 <a href='#home' className='text-4xl font-bold italic text-white'>Portfolio</a>
                 <button className='md:hidden focus:outline-none' onClick={() => setIsOpen(!isOpen)}>
                     <FiMenu className='w-8 h-8 text-white' />
